@@ -38,7 +38,6 @@ position: relative;
     left:40px;
     width:342px;
     height:272px;
-    margin-bottom:58px;
     background-color:#777;
     border-radius: 13px 13px 50px 13px;
 }
@@ -105,23 +104,48 @@ position: relative;
 }
 .pad3{
     position:relative;
-    top: 99px;
+    top: 72px;
     left : 8px;
     width: 0;
     height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 7px solid #dedede;
+    transform: rotate(180deg);
 }
 .pad4{
     position:relative;
-    top: -27px;
-    left : -5.6px;
+    top: 6px;
+    left : 7px;
     width: 0;
     height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 7px solid #dedede;
+}
+.pad5{
+    position:relative;
+    z-index:999;
+    top: 26px;
+    left : 43px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #dedede;
+    transform: rotate(90deg);
+}
+.pad6{
+    position:relative;
+    z-index:999;
+    top: 20px;
+    left : -29px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #dedede;
+    transform: rotate(-90deg);
 }
 .padv{
     position:absolute;
@@ -140,5 +164,167 @@ position: relative;
     border-radius: 5px;
     transform: rotate(90deg);
 }
+/* BOTONES A Y B */
+.fondo{
+    position: relative;
+    top: 72px;
+    left: 252px;
+    width:130px;
+    height: 60px;
+    background: #DFDFDF;
+    border-radius: 30px;
+    transform: rotate(-25deg);
+}
+.botonA{
+    position:absolute;
+    top:8px;
+    right: 9px;
+    width: 44px;
+    height: 44px;
+    background: #A93671;
+    border-radius: 100%;
+    transform: rotate(180deg)
+
+}
+.botonB{
+        position:relative;
+        top:7px;
+        right: -6px;
+        width: 44px;
+        height: 44px;
+        background: #A93671;
+        border-radius: 100%;
+        transform: rotate(180deg)
+}
+/* BOTON SELECT */
+.select{
+    position:absolute;
+    top: 600px;
+    left: 140px;
+    height: 12px;
+    width: 60px;
+    background: #999;
+    border-radius: 10px;
+    transform: rotate(-25deg);
+    box-shadow: 57px 27px #999, 0 0 0 5px #dfdfdf, 57px 27px 0 5px #dfdfdf
+}
+/* ALTAVOZ CONSOLA */
+.altavoz1{
+    position: relative;
+    height: 70px;
+    width: 8px;
+    top: 160px;
+    left: 300px;
+    background: #DDD;
+    transform: rotate(-25deg);
+    box-shadow: 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd 100px 0 #ddd
+}
+.altavoz2{
+    position: relative;
+    height: 70px;
+    width: 8px;
+    top: 83px;
+    left: 315px;
+    background: #DDD;
+    transform: rotate(-25deg);
+    box-shadow: 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd 100px 0 #ddd
+}
+.altavoz3{
+    position: relative;
+    height: 70px;
+    width: 8px;
+    top: 6px;
+    left: 330px;
+    background: #DDD;
+    transform: rotate(-25deg);
+    box-shadow: 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd 100px 0 #ddd
+
+}
+.altavoz4{
+    position: relative;
+    height: 70px;
+    width: 8px;
+    top: -70px;
+    left: 343px;
+    background: #DDD;
+    transform: rotate(-25deg);
+    box-shadow: 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd 100px 0 #ddd
+
+}
+.altavoz5{
+    position: relative;
+    height: 70px;
+    width: 8px;
+    top: -147px;
+    left: 357px;
+    background: #DDD;
+    transform: rotate(-25deg);
+    box-shadow: 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd 100px 0 #ddd
+}
+.altavoz6{
+    position: relative;
+    height: 70px;
+    width: 8px;
+    top: -223px;
+    left: 372px;
+    background: #DDD;
+    transform: rotate(-25deg);
+    box-shadow: 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd 100px 0 #ddd
+}
+/* AURICULARES */
+.auriculares{
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    padding: 3px 5px;
+    transform: translateX(-50%);
+    color: #dadada;
+    background-color: #e8e8e8;
+    font-size: 8px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.detallesa{
+    position:absolute;
+    width: 15px;
+    height: 5px;
+    bottom: -4px;
+    background-color: #e8e8e8;
+    left: 9px;
+}
+.detallesab{
+    position: absolute;
+    width: 3px;
+    height: 5px;
+    bottom: -4px;
+    left : 12px;
+    background-color: #ddd;
+    box-shadow: 5px 0 #ddd;
+    border-radius: 4px 4px 0 0 ;
+}
+/* LED Y ENCENDIDO */
+.led{
+    position:absolute;
+    width:10px;
+    height: 10px;
+    top: 176px;
+    left: 63px;
+    border-radius:100%;
+    background-color: #b98181;
+    transition: background-color 300ms linear;
 
 
+}
+.led2{
+    position:relative;
+    top:18px;
+    left:-10px;
+    font-size: 8px;
+    font-family: sans-serif;
+    color: #b3b3b3
+}
+.led3{
+    background-color: red;
+    box-shadow: 0 0 3px 1px #ef5350;
+}
